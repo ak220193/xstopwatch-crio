@@ -1,8 +1,22 @@
 {
+  "scripts": {
+    "build": "vite build",
+    "start": "vite",
+    "serve": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.15.11",
-    "react-icons": "^5.0.1"
+    "react": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "scripts": "^0.1.0"
+  },
+  "devDependencies": {
+    "vite": "^5.1.4"
   }
 }
